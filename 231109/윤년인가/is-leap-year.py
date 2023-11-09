@@ -7,4 +7,4 @@ elif y % 400 == 0 and y % 100 == 0 and y % 4 == 0:
 elif y % 4 == 0:
     print('true')
 else:
-    print('flase')
+    print('false')
