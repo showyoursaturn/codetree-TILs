@@ -1,4 +1,5 @@
-s, age = map(int,input().split())
+s = int(input())
+age = int(input())
 
 if s == 0:
     print('MAN') if age >= 19 else print('BOY')
