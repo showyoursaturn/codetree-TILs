@@ -21,3 +21,27 @@ elif c>a:
         print(c)
     elif b>c and b>a:
         print(c)
+##
+elif c>b:
+    if b>=a:
+        print(b)
+    elif a>=c:
+        print(a)
+    elif a>c and a>b:
+        print(c)
+##
+elif a>c:
+    if c>=b:
+        print(c)
+    elif b>=a:
+        print(a)
+    elif b>a and b>c:
+        print(a)
+##
+elif b>a:
+    if a>=c:
+        print(a)
+    elif c>=b:
+        print(b)
+    elif c>b and c>a:
+        print(b)
