@@ -8,8 +8,7 @@ else:
 i = 0
 while i < 20 :
     k = a%b
-    k = (k*10)//b
-    m += str(k)
+    m += str(k*10//b)
     a = (k*10)%b
     i += 1
 print(m)
