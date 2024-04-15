@@ -1,13 +1,16 @@
 a,b = map(int, input().split())
-m = (a*10)//b
-n = (a*10)%b
-if a<b :
-    k = "0."
+c = a // b
+if c > 0:
+    k = "{0}.".format(c)
 else:
-    k = str(float(m))
+    k = "0."
 
-for i in range(20):
-    k += str(m)
-    m = (n*10)//b
-    n = (n*10)%b
+i = 0
+
+while i < 20 :
+    s = a%b
+    s = (s*10)//b
+    k += str(s)
+    a = (s*10)%b
+    i += 1
 print(k)
