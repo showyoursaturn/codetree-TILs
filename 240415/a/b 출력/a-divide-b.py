@@ -1,10 +1,9 @@
 a,b = map(int, input().split())
-s = a
-k = str(a/b)
-i = 0
-while i < 19:
-    s = (s*10)%b
-    k += str(s)
-    i += 1
-
+m = (a*10)//b
+n = (a*10)%b
+k = "0."
+for i in range(20):
+    k += str(m)
+    m = (n*10)//b
+    n = (n*10)%b
 print(k)
