@@ -3,11 +3,11 @@ val = 0
 c = 0
 d = 0
 if a > b:
-    a = d
-    b = c
+    d = a
+    c = b
 else:
-    a = c
-    b = d
+    c = a
+    d = b
 
 for i in range (c, d+1):
     if i % 5 == 0:
