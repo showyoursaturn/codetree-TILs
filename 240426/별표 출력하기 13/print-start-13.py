@@ -22,3 +22,24 @@ if n % 2 == 0:
                 print("*", end = " ")
             cnt += 1
         print()
+else:
+    for i in range(n):
+        if i % 2 == 0:
+            for j in range(cnt1):
+                print("*", end=" ")
+            cnt1 -= 1
+        else:
+            for j in range(cnt):
+                print("*", end = " ")
+            cnt +=1
+        print()
+    for i in range(n):
+        if i % 2 == 0:
+            for j in range(cnt):
+                print("*", end = " ")
+            cnt += 1
+        else:
+            for j in range(cnt1):
+                print("*", end = " ")
+            cnt1 -= 1
+        print()
